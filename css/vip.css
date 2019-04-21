@@ -1,0 +1,262 @@
+@charset "utf-8";
+body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,th,caption,hr,h1,h2,h3,h4,h5,h6,img,input{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+
+body{
+	font-family:"微软雅黑",Arial;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+ul,ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	display: block;
+}
+i{
+	display: block;
+}
+/*header*/
+.top{
+	width:100%;
+	background-color:white;
+	display:-webkit-flex;
+	padding:.1rem .15rem;
+	box-sizing:border-box;
+}
+.top img{
+	width:.45rem;
+	height:.45rem;
+}
+.top-nei span{
+	display:block;
+}
+.top-right{
+	font-size: 12px;
+}
+.top-nei-top{
+	margin-bottom:.1rem;
+	color:#ff6600;
+	font-size: .13rem; 
+}
+.top-nei-bottom{
+	color:#b6b6b6;
+	font-size:.11rem;
+}
+.top-nei{
+	margin-left:.14rem; 
+}
+.top-right{
+	width:.81rem;
+	height: .29rem;
+	border-radius:.14rem;
+	border:1px solid #d5a75e;
+	color:#d5a75e;
+	line-height:.29rem;
+	text-align: center;
+	margin-left:.72rem;
+	margin-top:.08rem;    
+}
+/*banner*/
+.swiper-container{
+	width:100%;
+	height:1.75rem;
+	background-color:white;
+	background-size:100%; 
+}
+.swiper-wrapper{
+	width:100%;
+	height:1.88rem;
+	background-color:white;
+}
+.swiper-slide a{
+	display: block;
+	width:100%;
+	height: 1.88rem;
+}
+.pic1{
+	background:url(../img/vipbanner1.jpg);
+	background-size:100%; 
+}
+.pic2{
+	background:url(../img/vipbanner2.jpg);
+	background-size:100%; 
+}
+.pic3{
+	background:url(../img/vipbanner3.jpg);
+	background-size:100%; 
+}
+.pic4{
+	background:url(../img/vipbanner4.jpg);
+	background-size:100%; 
+}
+.pic5{
+	background:url(../img/vipbanner5.jpg);
+	background-size:100%; 
+}
+/*三.第一个版块*/
+.content1{
+	width:100%;
+	background-color:white;
+	padding:0px .1rem;
+	box-sizing: border-box;
+}
+.titlespan{
+	width:100%;
+	height:.51rem;
+	display:block;
+	padding-top:.17rem;
+	box-sizing: border-box;
+}
+.titleimg{ 
+	width:1.17rem;
+	height: :.19rem;
+	display:block;
+}
+.small1{
+	width:1.73rem;
+	height: 1.55rem;
+	background-color:white;
+}
+.small1 img{
+	display:block;
+	width:100%;
+	height:.97rem;
+}
+.smallspan1{
+	width:100%;
+	display:block;
+	font-size: .15rem;
+	height:.25rem;
+	padding-top: .1rem;
+}
+.content-small{
+ display:-webkit-flex;
+ -webkit-flex-wrap:wrap;
+ -webkit-justify-content: space-around;
+}
+.smallspan2{
+	width:100%;
+	display:block;
+	font-size: .13rem;
+	height:.25rem;
+	color:grey;
+}
+/*四.第二个版块*/
+.hengxiang{
+	width: 100%;
+	height: 2.11rem;
+	background-color:white;
+	display: -webkit-flex;
+	overflow-x: scroll;
+}
+.heng1{
+	width:1.02rem;
+	height: 2.11rem;
+	background-color:white;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-justify-content:center;
+	margin-right: .06rem;
+}
+.hengimg{
+	display:block;
+	width: 1.02rem;
+	height: 1.55rem;
+}
+.hengspan1{
+	display:block;
+	font-size:.13rem;
+	text-align: center;
+}
+.hengspan2{
+	display:block;
+	color:grey;
+	font-size: 12px;
+	text-align: center;
+}
+/*五.第五个版块*/
+.content-all{
+	width:100%;
+	background-color:white;
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+	-webkit-flex-wrap:wrap;
+}
+.content-1{
+	width:1.12rem;
+	height: 2.28rem;
+	background-color:white;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+.content-1img{
+	width:1.12rem;
+	height: 1.70rem;
+	display:block;
+}
+.content-1span1{
+	font-size:14px;
+	margin-top: .06rem;
+	margin-bottom:.06rem; 
+}
+.content-1span2{
+	font-size:12px;
+	color:grey; 
+}
+.content1-bottom{
+	width:100%;
+	height:.34rem;
+	background-color:white;
+	display:-webkit-flex;
+	-webkit-justify-content:center;
+	-webkit-align-items:center;
+}
+.content1-bottom-span1{
+	font-size: 12px;
+	display:block;
+	color:#d3ae68;
+}
+.content1-bottom-span2::after{
+font-family: "iconfont" !important;
+font-size:.1rem;
+display:block;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+content:"\e882";
+color:#d3ae68;
+margin-left:.1rem;
+}
+/*七.底栏*/
+.footerimg{
+	display: block;
+	width: 100%;
+	height:.71rem;
+	margin-bottom:.5rem;
+}
+.footerdiv{
+	width:100%;
+	height:.48rem;
+	position: fixed;
+	left:0px;
+	bottom:0px;
+	background-color: white;
+}
+.footerul{
+	display: -webkit-flex;
+	-webkit-justify-content:space-around;
+	-webkit-align-items: center;
+	height:.48rem;
+}
+.footerul li{
+	font-size:.14rem;
+}
